@@ -1,6 +1,6 @@
 // app/about/page.tsx
 import React from "react";
-import Carousel from "../components/ui/Carousel";
+import HeroCarousel from "../components/ui/HeroCarousel";
 
 export default function ContentCreation() {
   return (
@@ -12,7 +12,7 @@ export default function ContentCreation() {
       </p>
       </div>
         <div>
-          <Carousel/>
+          <HeroCarousel/>
         </div>
         <div>
           <h3 className="text-4xl font-bold mb-4 text-gray-500">Why Captured in Love Media?</h3>
