@@ -3,7 +3,7 @@ import Carousel from "./components/ui/HeroCarousel";
 export default function Home() {
   return (
     <main>
-      <section className="relative h-screen overflow-hidden">
+      <section className="relative min-h-screen overflow-hidden flex items-center">
       < Carousel />
       <div className="absolute inset-0 z-10 flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <section className="py-24 max-w-7xl mx-auto px-6">
+      <section className="py-24 md:py-32 lg:py-40 max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-serif mb-12 text-center">
           Recent Moments
         </h2>
@@ -31,7 +31,7 @@ export default function Home() {
               className="group transition-transform duration-300 ease-out hover:scale-[1.03]"
             >
               <div className="overflow-hidden rounded-2xl shadow-lg bg-white">
-                <div className="h-80 bg-neutral-300 flex items-center transition-transform duration-500 group-hover:scale-105">
+                <div className="min-h-[20rem] md:min-h-[24rem] lg:min-h-[28rem] bg-neutral-300 flex items-center justify-center bg-neutral-300 flex items-center transition-transform duration-500 group-hover:scale-105 hover:shadow-xl transition-shadow duration-300">
                   <span className="text-neutral-600"> Image Placeholder</span>
                 </div>
               </div>
@@ -39,7 +39,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="py-24 bg-white">
+      <section className="py-24 md:py-32 lg:py-40 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-serif mb-16 text-center">
             How it Works
@@ -61,6 +61,16 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+      <section className="py-24 md:py-32 lg:py-40 max-w-5xl mx-auto px-6 text-center">
+        <blockquote className="text-2xl md:text-3xl font-serif mb-6">
+            "They captured our day perfectly - every emotion, every detail."
+        </blockquote>
+        <p className="text-neutral-600"> -Happy Couple</p>
+      </section>
+      <section className="py-32 md:py-40 lg:py-48 bg-[#E8CFC5] text-center">
+        <h2 className="text-4xl font-serif mb-8">Let's Capture Your Story</h2>
+        <button className="rounded-2xl px-10 py-6 text-lg">Get in Touch</button>
       </section>
     </main>
   );
