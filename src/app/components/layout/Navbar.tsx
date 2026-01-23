@@ -9,7 +9,7 @@ export default function Navbar() {
   const navItems = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
-    { label: "Content", href: "/content" },
+    { label: "Content Creation", href: "/contentCreation" },
     { label: "FAQs", href: "/faqs" },
     { label: "Contact", href: "/contact" },
   ];
@@ -56,14 +56,14 @@ export default function Navbar() {
 
       </nav>
       {open && (
-        <div className="md:hidden bg-black/90 backdrop-blur-lg border-t border-white/10">
+        <div className="md:hidden backdrop-blur-md bg-black/40 border-white/10">
           <ul className="flex flex-col px-6 py-6 gap-6 text-white">
             {navItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={() => setOpen(false)}
-                  className="block text-lg"
+                  className="block text-lg text-neutral-200"
                 >
                   {item.label}
                 </Link>
