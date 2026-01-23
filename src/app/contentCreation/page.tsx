@@ -105,10 +105,10 @@ export default function ContentCreation() {
         </div>
       </section>
       <section className="py-32 bg-white text-center px-6">
-        <blockquote className="text-2xl md:text-3xl font-serif mb-6 max-w-4xl mx-auto">
-          “The content didn't just look good — it felt like us.”
+        <blockquote className="text-xl font-serif mb-6 max-w-4xl mx-auto">
+          “Tammy was incredible throughout the whole process of the wedding day and leading up to it. Tammy worked so well alongside our photographer and videographer. She knew how to balance hyping you up, supporting you and blending in when needed. She captured so many moments and memories that we could then watch back the very next day. Even capturing things we weren't around to see too which we loved! She easily recognised what mattered most to us and made sure to capture these moments too. Her edited reels and song suggestions to match were perfect snippets weaved together to encapsulate our perfect day. Getting to see everything so soon was the best way to keep riding the wave of adrenaline rather than the months we will be waiting for any other content from our day. Tammy you are amazing and we are so grateful for everything you did for us! Thank you!”
         </blockquote>
-        <p className="text-neutral-600">— Content Client</p>
+        <p className="text-neutral-600">— Louise & Blair.</p>
       </section>
       <section className="py-32 bg-[#E8CFC5] text-center px-6">
         <h2 className="text-4xl font-serif mb-8">

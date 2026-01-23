@@ -65,10 +65,11 @@ Every session is captured as a story, not a highlight reel.
 </div>
       </section>
       <section className="py-24 md:py-32 max-w-4xl mx-auto px-6 text-center">
-<blockquote className="text-2xl md:text-3xl font-serif mb-6">
-“We didn't just get photos — we got memories that still feel alive.”
+<blockquote className="text-xl font-serif mb-6">
+“Tammy truly helped make our day unforgettable. 🤍
+From jumping in whenever help was needed to capturing all those little moments that could so easily have been missed. She listened to our ideas and remembered every small detail. An absolute rock star! Thank you!!”
 </blockquote>
-<p className="text-neutral-600">— Past Client</p>
+<p className="text-neutral-600">— Elmarie & Chris.</p>
       </section>
       <section className="py-32 bg-[#E8CFC5] text-center px-6">
 <h2 className="text-4xl font-serif mb-6">Let's Tell Your Story</h2>

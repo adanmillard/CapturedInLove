@@ -63,10 +63,10 @@ export default function Home() {
         </div>
       </section>
       <section className="py-24 md:py-32 lg:py-40 max-w-5xl mx-auto px-6 text-center">
-        <blockquote className="text-2xl md:text-3xl font-serif mb-6">
-            "They captured our day perfectly - every emotion, every detail."
+        <blockquote className="text-xl font-serif mb-6">
+            "We had Tammy at our wedding and she was absolutely incredible. Not only does Tammy do a fabulous job with her content creation, she also has such a lovely, kind aura which is great to have around on your wedding day. Your wedding day goes by so fast and many moments are easily forgotten but Tammy captured so many of those small moments and we still regularly watch the videos 9 months later. The best part was she sent through our gallery the very next day so we didn't have to wait long at all. Thank you Tammy for your service!! We are SO grateful and highly recommend Tammy to be your Content Creator."
         </blockquote>
-        <p className="text-neutral-600"> -Happy Couple</p>
+        <p className="text-neutral-600"> - Geena & Hamish.</p>
       </section>
       <section className="py-32 md:py-40 lg:py-48 bg-[#E8CFC5] text-center">
         <h2 className="text-4xl font-serif mb-8">Let's Capture Your Story</h2>
